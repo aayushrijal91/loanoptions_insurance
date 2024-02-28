@@ -1,13 +1,22 @@
 <header>
     <div class="navigation_bar py-md-4 py-2">
         <div class="container-fluid">
-            <div class="row justify-content-center justify-content-lg-between align-items-center">
-                <div class="col-lg-auto">
+            <div class="row justify-content-center justify-content-lg-between align-items-center gy-4">
+                <div class="col-auto">
                     <a href="./">
                         <?= renderImg("logo.png", "logo") ?>
                     </a>
                 </div>
-                <hr>
+                <div class="col-auto d-none d-xl-block">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            <p class="text-white fw-700">In partnership with</p>
+                        </div>
+                        <div class="col-auto">
+                            <?= renderImg('acubed-logo.png', 'logo') ?>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-auto">
                     <div class="row justify-content-center align-items-center py-2 py-lg-0">
                         <div class="col-auto">
@@ -35,6 +44,15 @@
             <div class="row gy-md-5">
                 <div class="col-xl-8">
                     <div class="banner_left">
+
+                        <div class="row justify-content-center align-items-center d-xl-none py-4">
+                            <div class="col-auto">
+                                <p class="text-white fw-700">In partnership with</p>
+                            </div>
+                            <div class="col-auto">
+                                <?= renderImg('acubed-logo.png', 'logo') ?>
+                            </div>
+                        </div>
                         <p class="fs-96 lh-1 text-white font-articulat-heavy ls-2 mb-3 text-center text-md-start">More <span class="text-secondary-light">Options.</span> More <span class="text-blue">Insurance.</span></p>
                         <p class="text-white fs-32 fw-700 ls-2 text-capitalize text-center text-md-start">Compare Tailored Insurance Loans Online</p>
                         <p class="text-white fs-20 pb-5 pt-3 text-center text-md-start">Compare realistic insurance loans with powerful data & AI matching technology</p>

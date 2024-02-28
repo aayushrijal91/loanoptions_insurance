@@ -44,12 +44,8 @@ header {
         margin-top: 100px;
         padding: 40px 0 70px;
 
-        @include media-breakpoint-only(md) {
-            margin-top: 160px;
-        }
-
         @include media-breakpoint-down(sm) {
-            background: $secondary;
+            background: $tertiary-light;
             padding: 40px 0;
         }
 
