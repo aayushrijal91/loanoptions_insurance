@@ -60,7 +60,7 @@ $('#insuranceWidgetForm').on('submit', function (e) {
             (e = e.trim()),
                 $(".insuranceSubmitBtn").removeClass("disabled"),
                 "success" == e
-                    ? ($(".form-tab").hide(), $("#form-tab-6").fadeIn())
+                    ? ($(".form-tab").hide(), $("#form-tab-6").fadeIn(), window.location.href = SITE_URL + '/thankyou.php')
                     : "fail" == e && alert("Failed, Something went wrong.");
         },
     });

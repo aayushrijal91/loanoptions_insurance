@@ -4,10 +4,9 @@ $site = "LoanOptions.ai Insurance";
 $phone_number = "1300 060 684";
 $admin_email = "julian@loanoptions.ai";
 // $admin_email = "arijal@aiims.com.au";
-$bcc_email = 'kalbassit@aiims.com.au';
-$bcc_email = "";
-$no_reply_email = "info@loanoptions.ai";
 $cc_email = "";
+$bcc_email = 'kalbassit@aiims.com.au';
+$no_reply_email = "info@loanoptions.ai";
 
 function renderImg($filename, $folder, $classname = "")
 {
